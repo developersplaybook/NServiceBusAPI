@@ -49,7 +49,7 @@ const timerJob = () => {
     success: (cars) => {
       if (cars.length === 0) {
         setTimeout(timerJob, oneTenthSecond);
-        console.log("Inga bilar hittade!");
+        console.log("No cars found!");
         return;
       }
       const selectedItem = Math.floor(Math.random() * cars.length);
