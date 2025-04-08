@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license type="Non-Production Development" Applications="All" expiration="2025-07-07" id="614e7f8a-9c6b-4fe5-9935-be8280f1111d">
+  <name>gunnar.sireus@telia.com</name>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>9gqf2gGvICjoK+JlUbLknW+xArU=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>UBxQDQroBIwpkjgjg3Zc9HorRne81fvZLDJPvVXNSQUytUg/9oWbcmMW1Rn58Z1LzzD0E6MvGP+JdEkMGVq5TyO86vtln5oo97Wo7iuFpzAg+d//EQJW6OYyNyrJkYXmVkyn3t3F3f6aLyVdCx1lUw1n3LPv5CSI10joRbKr1aA=</SignatureValue>
+  </Signature>
+</license>
