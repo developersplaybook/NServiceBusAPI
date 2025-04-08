@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using NServiceBus;
 using NServiceBus.Logging;
 using Shared.Responses;
-using Server.Data;
 using Microsoft.EntityFrameworkCore;
 using Server.DAL;
+using Server.Interfaces;
 
 namespace Server.RequestHandlers
 {

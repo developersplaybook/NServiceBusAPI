@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using NServiceBus;
 using Server.DAL;
 using Server.Data;
+using Server.Interfaces;
 using Server.RequestHandlers;
 using Server.ResponseHandlers;
 using Shared.Particular;

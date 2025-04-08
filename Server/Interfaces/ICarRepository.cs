@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Server.Data
+namespace Server.Interfaces
 {
     public interface ICarRepository
     {
@@ -11,7 +11,7 @@ namespace Server.Data
 
         public Task<int> UpdateCarAsync(Car car);
 
-        public Task<Car?> GetCarAsync(Guid Id);
+        public Task<Car> GetCarAsync(Guid Id);
 
         public Task<IEnumerable<Car>> GetAllCarsAsync();
 

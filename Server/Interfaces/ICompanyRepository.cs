@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Server.Data
+namespace Server.Interfaces
 {
     public interface ICompanyRepository
     {
@@ -11,7 +11,7 @@ namespace Server.Data
 
         public Task<int> UpdateCompanyAsync(Company car);
 
-        public Task<Company?> GetCompanyAsync(Guid Id);
+        public Task<Company> GetCompanyAsync(Guid Id);
 
         public Task<IEnumerable<Company>> GetAllCompaniesAsync();
 

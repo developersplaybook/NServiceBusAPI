@@ -1,6 +1,6 @@
 using NServiceBus;
 using NServiceBus.Logging;
-using Server.Data;
+using Server.Interfaces;
 using Shared.Requests;
 using Shared.Responses;
 using System.Threading.Tasks;
